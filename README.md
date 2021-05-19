@@ -1,1 +1,1 @@
-# SQL-Coderbyte
+# SQL-Coderbyte Practice solutions
