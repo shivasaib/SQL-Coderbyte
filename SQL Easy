@@ -1,4 +1,17 @@
-Question) In this MySQL challenge, your query should return the rows from your table where LastName = Smith or FirstName = Robert and the rows should be sorted by Age in ascending order. 
+Question 1) In this MySQL challenge, your query should return the rows from your table where LastName = Smith or FirstName = Robert and the rows should be sorted by Age in ascending order. 
 
 
-Ans) select * from maintable_070GY where LastName ="Smith" or FirstName ="Robert" order by Age ASC
+Ans) select * from table where LastName ="Smith" or FirstName ="Robert" order by Age ASC
+
+Question 2) In this MySQL challenge, your query should return LastName and the sum of Age from your table for all users with a LastName = Smith. The column title of the summed ages should be SumAge. Your output should look like the
+
+
+/* write your SQL query below */
+
+SELECT LastName, SUM(Age) as SumAge FROM table where LastName = "Smith" 
+
+
+Question 3) In this MySQL challenge, your query should return FirstName, LastName, and the Age from your table for all users who are above the age of 25 ordered by ID in ascending order.
+
+Answer) 
+SELECT FirstName, LastName, Age FROM table  where age > 25 order by ID ASC
